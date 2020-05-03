@@ -1,6 +1,6 @@
 <template lang="pug">
   .app-block#app
-    the-navigation
+    the-header
     main
       transition(name="fade" mode="out-in")
         router-view
@@ -8,12 +8,12 @@
 </template>
 
 <script>
-import TheNavigation from './components/layout/TheNavigation.vue'
+import TheHeader from './components/layout/TheHeader.vue'
 import TheFooter from './components/layout/TheFooter.vue'
 
 export default {
   components: {
-    TheNavigation,
+    TheHeader,
     TheFooter,
   },
 }

@@ -26,11 +26,11 @@
 <script>
 // Mixin for general field settings
 import { formFieldMixin } from '@/mixins/formFieldMixin.js'
-import ResizableTextarea from '@/helpers/ResizableTextarea.js'
+import resizableTextarea from '@/helpers/resizableTextarea.js'
 
 export default {
   mixins: [formFieldMixin],
-  components: { ResizableTextarea },
+  components: { resizableTextarea },
   props: {},
   data() {
     return {}

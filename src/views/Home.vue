@@ -10,5 +10,5 @@
           a.a-link-text.a-hover-link-underline(href="app.rar" target="_blank") app.rar
         .col-12
           h2.beta Link to github
-          a.a-link-text.a-hover-link-underline(href="#" target="_blank") github
+          a.a-link-text.a-hover-link-underline(href="https://github.com/jakubtursky/taskWS" target="_blank") github
 </template>

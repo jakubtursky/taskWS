@@ -1,0 +1,95 @@
+.bg-black-normal {
+  background-color: #000000;
+}
+
+.bg-white-normal {
+  background-color: #ffffff;
+}
+
+.bg-green-normal {
+  background-color: $ws-emerald;
+}
+
+.bg-gray-light {
+  background-color: $ws-white-smoke;
+}
+
+.bg-blue-normal {
+  background-color: $ws-primary;
+}
+
+.bg-red-normal {
+  background-color: $ws-red;
+}
+
+@include bp(small) {
+  .bg-sm-gray-light {
+    background-color: $ws-light-gray;
+  }
+}
+
+.txt-color-white {
+  color: #ffffff;
+}
+
+.txt-color-black {
+  color: #000000;
+}
+
+.h-color-white {
+  h1,
+  .alfa,
+  h2,
+  .beta,
+  h3,
+  .gamma,
+  h4,
+  .delta,
+  h5,
+  .epsilon,
+  h6,
+  .zeta {
+    color: #ffffff;
+  }
+}
+
+.h-color-primary {
+  h1,
+  .alfa,
+  h2,
+  .beta,
+  h3,
+  .gamma,
+  h4,
+  .delta,
+  h5,
+  .epsilon,
+  h6,
+  .zeta {
+    color: $ws-primary;
+  }
+}
+
+.p-color-white {
+  p {
+    color: #ffffff;
+  }
+}
+
+.ul-color-white {
+  li {
+    color: #ffffff !important;
+    &:before {
+      background-color: #ffffff !important;
+    }
+  }
+}
+
+.ol-color-white {
+  li {
+    color: #ffffff !important;
+    &:before {
+      color: #ffffff !important;
+    }
+  }
+}

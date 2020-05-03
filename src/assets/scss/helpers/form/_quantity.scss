@@ -1,0 +1,53 @@
+.quantity-group {
+  position: relative;
+}
+
+.quantity-input {
+  padding-left: 85px;
+  padding-right: 65px;
+  outline: none;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.quantity-up,
+.quantity-down {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  text-align: center;
+  position: absolute;
+  top: 0;
+  cursor: pointer;
+  background-color: $ws-emerald;
+  &:hover {
+    background-color: darken($ws-emerald, 10%);
+  }
+  svg {
+    fill: $ws-white;
+  }
+}
+
+.quantity-up {
+  right: 0;
+}
+
+.quantity-down {
+  left: 0;
+}
+
+input[type='number']::-webkit-inner-spin-button,
+input[type='number']::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type='number'] {
+  -moz-appearance: textfield;
+}

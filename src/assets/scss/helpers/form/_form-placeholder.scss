@@ -1,0 +1,53 @@
+input::-webkit-input-placeholder,
+select::-webkit-input-placeholder,
+textarea::-webkit-input-placeholder {
+  color: $ws-dark-gray;
+}
+
+input::-moz-input-placeholder,
+select::-moz-input-placeholder,
+textarea::-moz-input-placeholder {
+  color: $ws-dark-gray;
+}
+
+input:-ms-input-placeholder,
+select:-ms-input-placeholder,
+textarea:-ms-input-placeholder {
+  color: $ws-dark-gray;
+}
+
+.form-field-inverse input::-webkit-input-placeholder,
+.form-field-inverse select::-webkit-input-placeholder,
+.form-field-inverse textarea::-webkit-input-placeholder {
+  color: $ws-white;
+}
+
+.form-field-inverse input::-moz-input-placeholder,
+.form-field-inverse select::-moz-input-placeholder,
+.form-field-inverse textarea::-moz-input-placeholder {
+  color: $ws-white;
+}
+
+.form-field-inverse input:-ms-input-placeholder,
+.form-field-inverse select:-ms-input-placeholder,
+.form-field-inverse textarea:-ms-input-placeholder {
+  color: $ws-white;
+}
+
+input:focus::-webkit-input-placeholder,
+textarea:focus::-webkit-input-placeholder {
+  color: transparent;
+  opacity: 1;
+}
+
+input:focus::-moz-input-placeholder,
+textarea:focus::-moz-input-placeholder {
+  color: transparent;
+  opacity: 1;
+}
+
+input:focus:-moz-input-placeholder,
+textarea:focus:-moz-input-placeholder {
+  color: transparent;
+  opacity: 1;
+}

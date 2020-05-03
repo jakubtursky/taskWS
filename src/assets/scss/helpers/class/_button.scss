@@ -1,0 +1,180 @@
+.btn {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin: 0;
+  padding: 0.7em 1.2rem;
+  font-weight: 700;
+  line-height: 1.4;
+  cursor: pointer;
+  text-decoration: none;
+  border: 0;
+  outline: none !important;
+  background: $ws-black;
+  text-align: center;
+
+  @include transition(background-color, 250ms, ease);
+  @include border-radius(0);
+  @include font-size(14px);
+  -webkit-appearance: none;
+  &,
+  &:visited,
+  &:active,
+  &:focus {
+    color: white;
+  }
+
+  &[disabled] {
+    background-color: $ws-dark-gray !important;
+  }
+
+  &:hover {
+    @include transition(background-color, 250ms, ease);
+    @include bp(medium) {
+      cursor: pointer;
+      text-decoration: none;
+      color: white;
+    }
+  }
+}
+
+.btn-responsive {
+  width: 100%;
+  padding-right: 0;
+  padding-left: 0;
+  text-align: center;
+}
+
+.btn-xs-responsive {
+  @include bp(rev-xsmall) {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+.btn-sm-responsive {
+  @include bp(rev-small) {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+    text-align: center;
+  }
+}
+
+.btn-flex {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.btn-absolute {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.btn-size-small {
+  @include font-size(12px);
+}
+
+.btn-size-normal {
+  @include font-size(14px);
+}
+
+.btn-size-big {
+  @include font-size(18px);
+}
+
+.btn-size-large {
+  @include font-size(20px);
+}
+
+.btn-padding-small {
+  padding: 0.6em 1rem;
+}
+
+.btn-padding-normal {
+  padding: 1.5em 1.2rem;
+}
+
+.btn-padding-big {
+  padding: 2em 1.5rem;
+}
+
+.btn-min-width-small {
+  min-width: 120px;
+}
+
+.btn-min-width-normal {
+  min-width: 250px;
+}
+
+.btn-min-width-big {
+  @include bp(xssmall) {
+    min-width: 300px;
+  }
+}
+
+.btn-gray-fill {
+  color: $ws-white;
+  border: 2px solid transparent;
+  background-color: $ws-dark-gray;
+  &,
+  &:visited,
+  &:active,
+  &:focus {
+    color: $ws-white;
+  }
+  &:hover {
+    background-color: darken($ws-dark-gray, 10%);
+  }
+}
+
+.btn-blue-fill {
+  color: $ws-white;
+  border: 2px solid transparent;
+  background-color: $ws-primary;
+  &,
+  &:visited,
+  &:active,
+  &:focus {
+    color: $ws-white;
+  }
+  &:hover {
+    background-color: darken($ws-primary, 10%);
+  }
+}
+
+.btn-green-fill {
+  color: $ws-white;
+  border: 2px solid transparent;
+  background-color: $ws-emerald;
+  &,
+  &:visited,
+  &:active,
+  &:focus {
+    color: $ws-white;
+  }
+  &:hover {
+    background-color: darken($ws-emerald, 10%);
+  }
+}
+
+.btn-black-outline {
+  color: $ws-black;
+  border: 2px solid $ws-black;
+  background-color: transparent;
+  &,
+  &:visited,
+  &:active,
+  &:focus {
+    color: $ws-black;
+  }
+  &:hover {
+    color: $ws-white;
+    border: 2px solid $ws-black;
+    background-color: $ws-black;
+  }
+}

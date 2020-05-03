@@ -1,0 +1,41 @@
+.has-error {
+  .multiselect__tags,
+  .form-select,
+  .form-textarea,
+  .form-input {
+    border-color: $ws-red;
+  }
+  .form-label {
+    color: $ws-red !important;
+  }
+  .checkbox-box {
+    border-color: $ws-red !important;
+  }
+  .checkbox-text {
+    color: $ws-red;
+  }
+}
+
+.has-success {
+  .multiselect__tags,
+  .form-select,
+  .form-textarea,
+  .form-input {
+    border-color: $ws-green;
+  }
+  .form-label {
+    color: $ws-green !important;
+  }
+}
+
+.field-error-message-group {
+  width: 100%;
+}
+
+.field-error-message {
+  display: block;
+  margin-top: 10px;
+  padding-left: 27px;
+  color: $ws-red;
+  @include font-size(14px);
+}

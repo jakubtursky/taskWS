@@ -1,0 +1,194 @@
+/* Content */
+
+section {
+  position: relative;
+  padding: 3rem 0 3rem;
+
+  @include bp(small) {
+    padding: 3rem 0 3rem;
+  }
+}
+
+.no-padding {
+  padding: 0;
+}
+
+@include bp(xsmall) {
+  .no-xs-padding {
+    padding: 0;
+  }
+}
+
+@include bp(small) {
+  .no-sm-padding {
+    padding: 0;
+  }
+}
+
+@include bp(medium) {
+  .no-md-padding {
+    padding: 0;
+  }
+}
+
+@include bp(large) {
+  .no-lg-padding {
+    padding: 0;
+  }
+}
+
+.padding-style-1-3 {
+  padding: 2rem 0 3rem;
+
+  @include bp(small) {
+    padding: 1.5rem 0 3rem;
+  }
+}
+
+.padding-style-2 {
+  padding: 2rem 0.5rem 2rem;
+
+  @include bp(small) {
+    padding: 2rem 0 2rem;
+  }
+}
+
+.padding-style-3 {
+  padding: 2rem 0.5rem 2rem;
+
+  @include bp(small) {
+    padding: 3rem 0 3rem;
+  }
+}
+
+.padding-style-4 {
+  padding: 4rem 0.5rem 4rem;
+
+  @include bp(xsmall) {
+    padding: 4rem 3rem 4rem;
+  }
+}
+
+.padding-style-5 {
+  padding: 3rem 0.5rem 3rem;
+
+  @include bp(small) {
+    padding: 5rem 0 5rem;
+  }
+}
+
+.padding-style-6 {
+  padding: 3rem 0.5rem 3rem;
+
+  @include bp(small) {
+    padding: 6rem 0 6rem;
+  }
+}
+
+.padding-content-1 {
+  padding: 1rem 1rem;
+}
+
+.padding-content-2 {
+  padding: 2rem 2rem;
+}
+
+.padding-content-3 {
+  padding: 3rem 3rem;
+}
+
+.padding-content-4 {
+  padding: 4rem 4rem;
+}
+
+.padding-content-5 {
+  padding: 5rem 5rem;
+}
+
+.content-width-200 {
+  max-width: 200px;
+}
+
+.content-width-300 {
+  max-width: 300px;
+}
+
+.content-width-400 {
+  max-width: 400px;
+}
+
+main {
+  position: relative;
+  display: block;
+
+  -webkit-box-flex: 1;
+  -webkit-flex: 1 0 auto;
+  -ms-flex: 1 0 auto;
+  flex: 1 0 auto;
+  margin-bottom: 2rem;
+}
+
+.container-full {
+  padding: 0 15px;
+}
+
+.container-small,
+.container-normal,
+.container-large {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.container-small {
+  @include bp(small) {
+    width: 730px;
+  }
+  @include bp(medium) {
+    width: 800px;
+  }
+  @include bp(large) {
+    width: 800px;
+  }
+  @include bp(xlarge) {
+    width: 800px;
+  }
+  @include bp(rev-small) {
+    width: 100%;
+  }
+}
+
+.container-normal {
+  @include bp(small) {
+    width: 700px;
+  }
+  @include bp(medium) {
+    width: 900px;
+  }
+  @include bp(large) {
+    width: 1000px;
+  }
+  @include bp(xlarge) {
+    width: 1000px;
+  }
+  @include bp(rev-small) {
+    width: 100%;
+  }
+}
+
+.container-large {
+  @include bp(small) {
+    width: 730px;
+  }
+  @include bp(medium) {
+    width: 950px;
+  }
+  @include bp(large) {
+    width: 1140px;
+  }
+  @include bp(xlarge) {
+    width: 1230px;
+  }
+  @include bp(rev-small) {
+    width: 100%;
+  }
+}

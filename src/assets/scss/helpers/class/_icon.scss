@@ -1,0 +1,53 @@
+.ico-size-16 {
+  svg {
+    @include font-size(16px);
+  }
+}
+
+.ico-size-18 {
+  svg {
+    @include font-size(18px);
+  }
+}
+
+.ico-size-20 {
+  svg {
+    @include font-size(20px);
+  }
+}
+
+.ico-size-22 {
+  svg {
+    @include font-size(22px);
+  }
+}
+
+.ico-size-24 {
+  svg {
+    @include font-size(24px);
+  }
+}
+
+.ico-size-26 {
+  svg {
+    @include font-size(26px);
+  }
+}
+
+.ico-size-60 {
+  svg {
+    @include font-size(60px);
+  }
+}
+
+.ico-color-white {
+  svg {
+    fill: #ffffff;
+  }
+}
+
+.ico-color-orange {
+  svg {
+    fill: $ws-primary;
+  }
+}

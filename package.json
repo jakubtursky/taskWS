@@ -12,7 +12,7 @@
     "core-js": "^3.6.4",
     "eslint-plugin-pug": "^1.2.2",
     "lodash": "^4.17.15",
-    "pug": "^2.0.4",
+    "pug": "^3.0.1",
     "pug-lint": "^2.6.0",
     "pug-plain-loader": "^1.0.0",
     "vue": "^2.6.11",
